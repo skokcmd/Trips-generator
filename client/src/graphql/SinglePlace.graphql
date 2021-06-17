@@ -1,0 +1,8 @@
+query SinglePlace($placeId: Float!) {
+  singlePlace(placeId: $placeId) {
+    id
+    name
+    imgSrc
+    description
+  }
+}
